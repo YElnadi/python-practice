@@ -70,10 +70,10 @@ greet("Yasmine")
 
 
 ## creat a function that return the sum of two numbers
-def sum (a,b):
-    print(f"the sum of {a} and {b} = {a+b}")
+##def sum (a,b):
+    ##print(f"the sum of {a} and {b} = {a+b}")
 
-sum(3,7)
+##sum(3,7)
 
 ##Day 1 LeetCode-style challenge
 ##given numbers = [2, 7, 11, 15]  target = 9
@@ -92,7 +92,22 @@ for i in range(len(numbers)):
 print(new_list)
 
 
-    
+##  Write Python code to find:
+## Fastest response
+## Slowest response
+## Average response time
+
+response_times = [1.2, 0.9, 1.5, 1.1, 1.3]
+
+print(f"Number of experiments = {len(response_times)}")
+print(f"The Fastest response ={min(response_times)}")
+print(f"The Slowest response ={max(response_times)}")
+
+
+print(f"The Average = {sum(response_times)/len(response_times)}")
+
+
+
 
 
 
